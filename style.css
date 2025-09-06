@@ -1,0 +1,95 @@
+body{
+    background-image: url(Images/bg-01.jpg);
+    width: 100%;
+    height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signup{
+    width: 360px;
+    height: 625px;
+    margin: auto;
+    background: rgba(245, 245, 245, 0.966);
+    padding-top: 5px;
+    border-radius: 35px;
+}
+
+.redirect{
+    width: 360px;
+    height: 290px;
+    margin: auto;
+    background:rgb(245, 245, 245);
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    padding-top: 15px;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 2px;
+    border: none;
+    border: 2px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:rgb(56, 213, 56);
+    color: azure;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    color:chocolate;
+    background-color: rgb(141, 222, 222);
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;    
+}
+
+/* Basic Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:rgb(56, 213, 56); 
+    color: white; 
+    border: none; 
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 320px;
+    height: 35px;
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  /* Button Hover Effect */
+  button:hover {
+    background-color: #205e23; 
+  }
+  
